@@ -1,0 +1,1445 @@
+/* latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjsGyN.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gfD_u50.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Montserrat Light"), local("Montserrat-Light"), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Montserrat Regular"), local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.show-m {
+    display: none;
+}
+
+
+.logos-nav {
+    display: flex;
+    
+}
+
+.logo2 {
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.logo2 div {
+    margin-bottom: -10px;
+}
+
+.logo-wrap {
+    max-width: 125px;
+    height: 64px;
+    line-height: 64px;
+}
+
+.logo-wrap img {
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    margin: 0 auto;
+    background: url("../assets/bg.jpg") no-repeat;
+    /* height: 99%; */
+    min-height: calc(100% - 159px);
+    background-size: 100% 106%;
+    font-size: 10px;
+}
+
+.main h1 {
+    font-size: 8em;
+    font-weight: bold;
+    text-shadow: 0 0 15px #fff;
+    margin: 0;
+}
+
+.main h2 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 4em;
+}
+
+.main .body {
+    position: relative;
+    min-height: 690px;
+}
+
+a.carousel-control-prev, a.carousel-control-next {
+    width: 50% !important;
+}
+
+.main .carousel-control-next-icon, .main .carousel-control-prev-icon {
+    opacity: 0;
+}
+
+.main .carousel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main .carousel-indicators li {
+    width: 20px;
+    height: 25px;
+    background: url("../assets/pagination-arrow.png") no-repeat;
+    border-radius: 100%;
+    border: 0;
+}
+
+.main .carousel-indicators .active {
+    background: #3cba9f;
+    background: url("../assets/pagination-arrow-active.png") no-repeat;
+}
+
+.main .carousel-item {
+    position: relative;
+    color: #fff;
+    height: 690px;
+}
+
+.main .carousel-item > div {
+    width: 99%;
+}
+
+.main .carousel-step1,
+.main .carousel-step2,
+.main .carousel-step3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .carousel-step2 h2 {
+    font-weight: bold;
+}
+
+.main .carousel-step2 {
+    top: 40%;
+}
+
+.step2-icons-wrap {
+    width: 100%;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.step2-icons-wrap div {
+    width: 360px;
+    height: 300px;
+    
+}
+
+.wrap-step-icon > div {
+    position: relative;
+    
+}
+
+.step2-icons-wrap div span {
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    top: 200px;
+    left: 56%;
+    width: 300px;
+    line-height: 30px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.lastSpan {
+    position: absolute !important;
+    left: 50% !important;
+}
+
+
+
+
+.step2-icons-wrap div span b {
+    display: block;
+    font-weight: bold;
+}
+
+.step2-icons-wrap .wrap-step-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.step2-icons-wrap .fund {
+    background: url("../assets/funds-icon.png") no-repeat right;
+    background-size: contain;
+}
+
+.step2-icons-wrap .invest {
+    background: url("../assets/invest-icon.png") no-repeat right;
+    background-size: contain;
+}
+
+.step2-icons-wrap .grow {
+    background: url("../assets/grow-icon.png") no-repeat center;
+    background-size: contain;
+}
+
+.carousel-step3 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-step3 h2 {
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.carousel-step3 h2 b {
+    font-weight: 700;
+    display: block;
+}
+
+.carousel-step3 .step3-icons-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+.step3-icons-wrap > div {
+    width: 262px;
+    height: 261px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5em;
+}
+
+.step3-icons-wrap > div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+.step3-icons-wrap > div div span {
+    line-height: 30px;
+    color: #0b1149;
+}
+
+.step3-icon1 {
+    background: url("../assets/circle1.png") no-repeat;
+}
+
+.step3-icon1 span {
+    margin-left: 10px;
+}
+
+.step3-icon2 {
+    background: url("../assets/circle3.png") no-repeat;
+}
+
+.step3-icon3 {
+    background: url("../assets/circle2.png") no-repeat;
+}
+
+.step3-icon4 {
+    background: url("../assets/circle4.png") no-repeat;
+}
+
+
+.btnAnime {
+    width: 270px;
+    border-radius: 10px;
+    height: 67px;
+}
+.btnAnime2 {
+    width: 300px;
+    border-radius: 10px;
+    height: 67px;
+    
+}
+
+.invest-btn {
+    width: 300px;
+    height: 67px;
+    line-height: 67px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+    background: #3cba9f;
+}
+.invest-btn2 {
+    width: 270px;
+    border: none;
+    height: 67px;
+    line-height: 67px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+    background: #3cba9f;
+    
+    
+    
+}
+
+
+
+.invest-btn:hover {
+    background: #00d8e0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background: #fff;
+    height: 112px;
+    
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header div.traders-online-wrap {
+
+    background: #3e95cd;
+    color: #fff;
+    border-radius: 100%;
+    width: 82px;
+    height: 82px;
+    text-align: center;
+    line-height: 15px;
+    padding: 10px 0 0;
+}
+
+.traders-online h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.traders-online div {
+    font-size: 16px;
+}
+
+.top-icons {
+    color: #080f49;
+
+    font-size: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-icons div.top-icon {
+    font-size: 1.6em;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+
+}
+
+.top-icons > div {
+    width: 50px;
+    height: 41px;
+    padding-left: 55px;
+}
+
+.top-icons .icon1 {
+    background: url("../assets/icon-top1.png") no-repeat;
+
+}
+
+.top-icons .icon2 {
+    background: url("../assets/icon-top2.png") no-repeat;
+}
+
+.top-icons .icon3 {
+    background: url("../assets/icon-top3.png") no-repeat;
+
+}
+
+.popup {
+    display: flex;
+    max-width: 880px;
+    width: 100%;
+    height: 500px;
+}
+
+.popup-glass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+}
+
+.popup-left {
+    height: 100%;
+    flex: 1 1 61%;
+    background: #0b1148;
+    padding-top: 40px;
+    color: #fff;
+
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.popup-left h3 {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.popup-left div {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.popup-middle {
+    margin: 40px auto 50px;
+}
+
+.popup-right {
+    flex: 1 1 40%;
+    background: url("../assets/women.jpg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.popup-right .popup-close {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border: 0;
+    right: -22.5px;
+    top: -22.5px;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    font-weight: 700;
+    align-items: center;
+    color: #000;
+    font-size: 25px;
+    border-radius: 100%;
+}
+
+.popup-right .popup-close:hover {
+    font-weight: 700;
+}
+
+.popup-middle {
+    font-size: 3.5em;
+}
+
+.footer {
+    width: 100%;
+    height: 153px;
+    font-size: 10px;
+    text-align: center;
+    color: #070f48;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.footer .coins-icons {
+    background: #000;
+    padding: 10px 0;
+        
+  
+}
+
+.footer .content {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.header p,
+.header h1 {
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
+
+
+.coins-icons .container {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.coins-icons .container .mobile-coins {
+    display: none;
+}
+
+.coins-icons .container .mobile-coins:after {
+    display: none;
+}
+
+.coins-icons .container > div {
+    color: #fff;
+    height: 20px;
+    display: flex;
+    font-size: 1.6em;
+    align-items: center;
+    padding-left: 40px;
+    background-size: contain;
+}
+
+.coins-icons .container > div:after {
+    display: block;
+    content: '';
+    width: 9px;
+    margin: 3px;
+    height: 14px;
+    background-size: contain;
+    background-position: center center;
+}
+
+.coins-icons .coin1 {
+    background: url("../assets/coin1.png") no-repeat;
+    
+}
+
+
+
+.coins-icons .coin2 {
+    background: url("../assets/coin2.png") no-repeat;
+    
+}
+
+
+
+.coins-icons .coin3 {
+    background: url("../assets/coin3.png") no-repeat;
+ 
+}
+
+
+
+.coins-icons .coin4, .coins-icons .coin4-m {
+    background: url("../assets/coin4.png") no-repeat;
+ 
+
+}
+
+.mobile-coins > div {
+    display: flex;
+    align-items: center;
+}
+
+div.mobile-coins > div:after {
+    content: '';
+    width: 9px;
+    margin: 3px;
+    height: 9px;
+    background-size: contain !important;
+}
+
+
+
+.coins-icons .coin5, .coins-icons .coin5-m {
+    background: url("../assets/coin5.png") no-repeat;
+    background-size: contain !important;
+    
+    
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+    body .container {
+        max-width: 1175px;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .main {
+        background: url("../assets/main-bg.gif") no-repeat;
+        background-size: 107% 102%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-icons {
+        font-size: 9px;
+    }
+
+    .top-icons {
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .top-icons div.top-icon {
+        font-size: 1.4em;
+    }
+
+    .popup {
+        position: relative;
+    }
+
+    .invest-btn {
+        width: 359px;
+        height: 55px;
+        font-size: 24px;
+        line-height: 55px;
+    }
+
+    .step3-icons-wrap > div {
+        width: 225px;
+        height: 245px;
+        background-size: contain;
+    }
+
+}
+
+@media(max-width: 1500px){
+    
+    .step2-icons-wrap div span {
+        font-size: 25px;
+        font-weight: 300;
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        width: 300px;
+        line-height: 30px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .step2-icons-wrap div {
+        width: 290px;
+        height: 340px;
+        
+    }
+    
+    .lastSpan {
+        position: absolute !important;
+        left: 50% !important;
+    }
+
+    .invest-btn {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .main .body {
+        min-height: 690px;
+
+    }
+
+    .main h2 {
+        font-size: 3.5em;
+    }
+
+    .step2-icons-wrap div span {
+        top: 165px;
+    }
+
+    .step3-icons-wrap > div div span {
+        margin-top: -20px;
+    }
+
+    .invest-btn {
+        max-width: 300px;
+    }
+
+    .coins-icons .container > div {
+        background-size: 24px;
+        height: 24px;
+        padding-left: 30px;
+    }
+
+    .step2-icons-wrap div span {
+        font-size: 25px;
+        font-weight: 300;
+        position: absolute;
+        top: 220px;
+        left: 50%;
+        width: 300px;
+        line-height: 30px;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .step2-icons-wrap div {
+        width: 290px;
+        height: 340px;
+        
+    }
+    
+    .lastSpan {
+        position: absolute !important;
+        left: 50% !important;
+    }
+
+    
+    
+}
+
+@media (max-width: 1023px) {
+    .main .body {
+        top: 0;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 991px) {
+
+    .logo-wrap {
+        max-width: 260px;
+    }
+
+    .carousel-step1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .popup {
+        align-self: center;
+        max-width: 90%;
+    }
+
+    .main h2 {
+        font-size: 2.7em;
+    }
+
+    .carousel-step2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .main .carousel-step3 {
+        max-width: 595px;
+    }
+
+    .main .carousel-step3 h2 {
+        margin-bottom: 10px;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap div {
+        margin: 10px;
+        width: 179px;
+        height: 193px;
+    }
+
+    .step3-icon {
+        background-size: 35%;
+        background-position: center 10px;
+    }
+
+    .step3-icons-wrap > div div span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .invest-btn {
+        width: 280px;
+        font-size: 27px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer .container {
+        font-size: 8px;
+    }
+
+    .footer .content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo-wrap {
+        max-width: 300px;
+        height: 43px;
+        line-height: 43px;
+        width: 100%;
+    }
+
+    .header {
+        height: 138px;
+        padding-top: 14px;
+    }
+
+    .top-icons {
+        height: 100%;
+    }
+
+    .header .container {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .header div.traders-online-wrap {
+        position: absolute;
+        width: 87px;
+        height: 87px;
+        top: 0;
+        right: 50px;
+        padding: 0;
+    }
+
+    .traders-online {
+        padding-top: 15px;
+    }
+
+    .traders-online h3 {
+        font-size: 20px;
+    }
+
+    .traders-online div {
+        font-size: 14px;
+    }
+
+    .top-icons div.top-icon {
+        flex: 1 1 auto;
+    }
+
+    .main .body {
+        height: 100%;
+    }
+
+    .popup {
+        height: 357px;
+    }
+
+    .popup-left {
+        font-size: 8px;
+    }
+
+    .popup-left .popup-middle {
+        margin: 30px auto;
+    }
+
+    .popup-left .popup-bottom-blue-txt {
+        margin-bottom: 30px;
+    }
+
+    .popup-right .popup-close {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 19px;
+    }
+
+    .main h1 {
+        font-size: 5em;
+    }
+
+    .main .invest-btn {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .icon3 {
+        margin-right: -30px;
+    }
+
+    .coins-icons .container {
+        flex-wrap: wrap;
+        max-width: 500px;
+    }
+
+    .coins-icons .container .coin4, .coins-icons .container .coin5 {
+        display: none;
+    }
+
+    .coins-icons .container .mobile-coins {
+        display: flex;
+        margin: 10px auto;
+        padding-left: 0;
+        justify-content: space-evenly;
+        max-width: 350px;
+        flex: 1 1 auto;
+        font-size: 10px;
+    }
+
+    .coins-icons .container .mobile-coins div {
+        font-size: 1.6em;
+
+        height: 24px;
+        background-size: 24px;
+        padding-left: 30px;
+        line-height: 37px;
+    }
+
+    .coin5-m:after {
+        display: inline-block;
+        content: '';
+        width: 11px;
+        height: 7px;
+    }
+
+    .step3-icon3 span {
+        margin: 24px 0 0 10px;
+    }
+
+    .step2-icons-wrap {
+        justify-content: space-around;
+        max-width: 660px;
+        margin: 20px auto 50px;
+    }
+
+    .step2-icons-wrap div {
+        width: 204px;
+        height: 224px;
+    }
+
+    .step2-icons-wrap div span {
+        font-size: 20px;
+        top: 155px;
+    }
+
+    .carousel-step2 h2 {
+        margin-bottom: 40px;
+    }
+
+    .footer div.coin4-m:after {
+        background: url("../assets/grn-arr.png") no-repeat;
+
+    }
+
+    .step3-icons-wrap > div div span {
+        margin-top: -10px;
+        font-size: 18px;
+    }
+
+    .step3-icon1.step3-icon span,
+    .step3-icon2.step3-icon span {
+        margin-top: -30px;
+    }
+
+    .footer > .container {
+        font-size: 14px;
+    }
+
+    .coins-icons .container > div {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        height: 161px;
+    }
+
+    .popup {
+        top: 0;
+        height: auto;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap div {
+        width: 173px;
+    }
+
+    .step2-icons-wrap .fund {
+        background: url("../assets/funds-icon-m.png") no-repeat;
+    }
+
+    .step2-icons-wrap .invest {
+        background: url("../assets/invest-icon-m.png") no-repeat;
+    }
+
+    .step2-icons-wrap .grow {
+        background: url("../assets/grow-icon-m.png") no-repeat;
+    }
+
+    .top-icons {
+        max-width: 350px;
+    }
+
+    .header .container {
+        align-items: flex-start;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header div.traders-online-wrap {
+        position: absolute;
+        width: 87px;
+        height: 87px;
+        padding: 0;
+    }
+
+    .top-icons div.top-icon {
+        padding: 55px 0 0;
+        text-align: center;
+    }
+
+    .top-icons .icon1, .top-icons .icon2, .top-icons .icon3 {
+        background-position: top center;
+        background-size: 48px 39px;
+    }
+
+    .step2-icons-wrap {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        left: -50px;
+    }
+
+    .step2-icons-wrap div {
+        width: 116px;
+        height: 127px;
+        position: relative;
+    }
+
+    .step2-icons-wrap div span {
+        font-size: 25px;
+        font-weight: 300;
+        position: absolute;
+        top: 50%;
+        left: 180%;
+        width: 144px;
+        text-align: left;
+        line-height: 25px;
+        transform: translate(-50%, -50%);
+    }
+
+    .icon3 {
+        margin-right: auto;
+    }
+
+    .footer {
+        height: 353px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .logo-wrap {
+        max-width: 220px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .header div.traders-online-wrap {
+        right: 10px;
+    }
+
+    .main {
+        background: url(../assets/bg-m.jpg) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .main h1 {
+        font-size: 4.5em;
+    }
+
+    .main h2 {
+        font-size: 2em;
+    }
+
+    .main .carousel {
+        align-items: flex-end;
+    }
+
+    .top-icons {
+        font-size: 8px;
+    }
+
+    .popup {
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+
+    .popup-left {
+        font-size: 7px;
+    }
+
+    .popup-left .popup-middle {
+        margin: 10px auto;
+    }
+
+    .popup-right {
+        flex: none;
+        height: 220px;
+        background: url(../assets/women-m.jpg) no-repeat bottom center;
+        background-size: 101% 130%;
+    }
+
+    .popup-right .popup-close {
+        right: -17.5px;
+    }
+
+    .invest-btn {
+        max-width: 90%;
+    }
+
+    .footer .container {
+        font-size: 8px;
+    }
+
+    .footer .container .mobile-coins {
+        font-size: 8px;
+    }
+
+    .footer .content {
+        font-size: 12px;
+    }
+
+    .step2-icons-wrap .wrap-step-icon div {
+        background-position: center left;
+    }
+
+    .step2-icons-wrap .wrap-step-icon {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .step2-icons-wrap .wrap-step-icon div:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .step2-icons-wrap .wrap-step-icon span {
+        font-size: 20px;
+    }
+
+    .coins-icons .container > div {
+        font-size: 1.2em;
+        margin: 10px auto 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .popup {
+        top: 6%;
+    }
+
+    .logo-wrap {
+        max-width: 210px;
+    }
+
+    .top-icons {
+        max-width: 250px;
+        height: 85px;
+    }
+
+    .top-icons div.top-icon {
+        font-size: 12px;
+    }
+
+    .traders-online {
+        padding-top: 7px;
+    }
+
+    .header div.traders-online-wrap {
+        width: 61px;
+        height: 61px;
+    }
+
+    .traders-online h3 {
+        font-size: 16px;
+    }
+
+    .traders-online div {
+        font-size: 12px;
+    }
+
+    .show-m {
+        display: block;
+    }
+
+    .popup-left {
+        padding-top: 20px;
+    }
+
+    .popup-left .popup-bottom-blue-txt {
+        margin-bottom: 20px;
+    }
+
+    .invest-btn {
+        margin-bottom: 20px;
+        max-width: 245px;
+    }
+
+    .main .carousel-item {
+        height: 750px;
+    }
+
+    .main .carousel-item .invest-btn {
+        margin-bottom: 0;
+    }
+
+    .main .step2-icons-wrap {
+        margin-top: 0;
+    }
+
+    .main .step2-icons-wrap .wrap-step-icon span {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main .carousel-step3 h2 {
+        width: 100%;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap div {
+        width: 134px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap div div span {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .main .carousel-step3 .step3-icon1.step3-icon span, .main .carousel-step3 .step3-icon2.step3-icon span {
+        margin-top: -10px;
+    }
+
+    .step3-icon2.step3-icon,
+    .coins-icons .coin3 {
+        margin: 10px auto 0;
+    }
+
+    .coins-icons .container > div {
+        font-size: 12px;
+
+    }
+
+    .coins-icons .container .mobile-coins {
+        justify-content: space-between;
+        margin: 10px 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .step2-icons-wrap {
+
+        align-items: flex-start;
+        position: relative;
+        left: 0;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .main h2 {
+        margin: 0 auto;
+    }
+
+    .main h2 b {
+        display: block;
+    }
+
+    .main .carousel-step1 {
+        height: 700px;
+    }
+
+    .main .carousel-step1,
+    .main .carousel-step2,
+    .main .carousel-step3 {
+        height: 650px;
+    }
+
+    .main .step2-icons-wrap {
+        margin: 20px auto;
+    }
+
+    .main .body {
+        width: 100%;
+        display: flex;
+    }
+
+    .popup {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .popup-left {
+        font-size: 6px;
+    }
+
+    .popup-close {
+        width: 28px;
+        height: 28px;
+        font-size: 20px;
+        line-height: 28px;
+        right: -15px;
+        top: -16px;
+    }
+
+    .step2-icons-wrap .wrap-step-icon:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .step2-icons-wrap .wrap-step-icon span {
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .top-icons div.top-icon {
+        text-align: left;
+        padding: 55px 20px 0;
+        background-size: 41px 33px;
+
+    }
+
+    .popup {
+        top: 28%;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap div div span {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .main .carousel-step3 .step3-icons-wrap div {
+        margin: 4px;
+        width: 140px;
+    }
+
+    div.container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
